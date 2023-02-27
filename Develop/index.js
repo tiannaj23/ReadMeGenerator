@@ -48,10 +48,9 @@ const questions = [
 
     {
         type: 'input',
-        name: githu
-    }
-
-
+        name: 'github',
+        message: "Enter your GitHub:"
+    },
 
     {
         type: 'list',
