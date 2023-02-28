@@ -36,7 +36,12 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents
-#[Title](#Title)
+[Title](#title)
+[Installation](#installation)
+[Usage](#usage)
+[Tests](#tests)
+[Contributing](#contributing)
+[Questions](#questions)
 ${renderLicenseLink(data.license)}
 
 ## Installation
@@ -52,7 +57,8 @@ ${data.license}
 
 ## Contributing
 ${data.contributing}
-rk
+
+## Questions
 If you have any questions about the repo, open an issue or contact me directly at ${
     data.email
   }. You can find more of my work at [${data.github}](https://github.com/${
