@@ -1,24 +1,31 @@
-# Markdown
+# README Generator
   
 
 ## Description
-Used to make a readMe file
+It is intended to create a README.md file for someone who is creating an application.
 
 ## Table of Contents
-#[Title](#Title)
+- [Title](#title)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
 
 ## Installation
-Require packages like fs and inquirer. Create functions, structure the readMe format, and ask questions in index.js.
+First, clone the starter code. Second, require inquirer and fs packages. Third, add questions and functions. Fourth, set up layout of the README.
 
 ## Usage
-Questions are prompted in the terminal with inquirier. Type out the answer and then another question is asked.
+Answer the promps and then then README is generated.
 
-## Contributing
-Myself.
+## License
+None
 
 ## Tests
 
+## Contributing
+Myself
 
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at tiannaj23@gmail.com. You can find more of my work at [https://github.com/tiannaj23](https://github.com/https://github.com/tiannaj23/).
