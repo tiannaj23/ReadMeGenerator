@@ -32,11 +32,11 @@ const questions = [
         md
         ![alt text](assets/images/screenshot.png)
         `
-    },
+     },
 
     {
         type: 'input',
-        name: 'contributing',
+        name: 'credits',
         message: "List any contributors to the application."
     },
 
@@ -59,7 +59,6 @@ const questions = [
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
     }
 
-    
 ];
 
 // TODO: Create a function to write README file
