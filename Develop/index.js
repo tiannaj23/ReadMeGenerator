@@ -42,6 +42,12 @@ const questions = [
 
     {
         type: 'input',
+        name: 'tests',
+        message: "Go the extra mile and write tests for your application. Then provide examples on how to run them here."
+    },
+    
+    {
+        type: 'input',
         name: 'contributing',
         message: "List any contributors to the application."
     },

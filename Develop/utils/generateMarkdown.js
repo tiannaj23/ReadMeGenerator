@@ -54,6 +54,7 @@ ${data.usage}
 ${data.license}
 
 ## Tests
+${data.tests}
 
 ## Contributing
 ${data.contributing}
