@@ -34,9 +34,15 @@ const questions = [
         `
      },
 
+     {type: 'list',
+     name: 'license',
+     message: "What's the app license under?",
+     choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+    },
+
     {
         type: 'input',
-        name: 'credits',
+        name: 'contributing',
         message: "List any contributors to the application."
     },
 
@@ -52,12 +58,6 @@ const questions = [
         message: "Enter your GitHub:"
     },
 
-    {
-        type: 'list',
-        name: 'license',
-        message: "What's the app license under?",
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
-    }
 
 ];
 
